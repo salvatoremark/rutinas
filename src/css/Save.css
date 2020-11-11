@@ -1,0 +1,28 @@
+/*----------------
+  Save
+ */
+
+ @import 'base.css';
+ @import 'helpers.css';
+ @import 'animation.css';
+
+ .Save {
+	text-align: center;
+ }
+
+ .Save h2 {
+ 	font-size: 3rem;
+ }
+
+ .Save h3 {
+ 	font-weight: normal;
+ 	margin: 1rem 0;
+ }
+
+.Save  h2 + div {
+	margin-bottom: 2rem;
+}
+
+.Save .text-left {
+	width: 27rem;
+}

@@ -1,0 +1,50 @@
+/* -------------
+   Helpers
+*/
+
+.big {
+	font-size: 3rem;
+	margin-right: .5rem;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.button-group {
+  margin: 2rem auto 0 auto; 
+}
+
+.button-group button:not(:first-child) {
+  margin-left: 2em;
+}
+
+.center {
+	text-align: center;
+}
+
+.color {
+	color: #497ADB;
+}
+
+.dropShadow {
+	-webkit-box-shadow: 0 .6rem 1.1rem 0 rgba(0,0,0,0.44);
+	-moz-box-shadow: 0 .6rem 1.1rem 0 rgba(0,0,0,0.44);
+	box-shadow: 0 .6rem 1.1rem 0 rgba(0,0,0,0.44);
+}
+
+.text-center {
+	margin: 0 auto;
+	padding: 0 1.5rem;
+	text-align: center;
+}
+
+.text-left {
+	margin: 0 auto;
+	padding: 0 20%;
+	text-align: left;
+}
+
+.textShadow {
+	text-shadow: .3rem .3rem .5rem #000000;
+}

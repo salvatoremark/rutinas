@@ -1,0 +1,130 @@
+/*----------------
+  NewRoutine
+ */
+
+@import 'helpers.css';
+
+.NewRoutine {
+	text-align: center;
+}
+
+.NewRoutine h2 {
+	margin-bottom: 1rem;
+}
+
+.NewRoutine .wrapper {
+	display: flex;  
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+ }
+
+.NewRoutine .frame {
+	align-self: flex-start;
+	flex-basis: 55%; 
+	flex-grow: 0;
+	max-height: 80vh;
+	max-width: 18rem;
+	padding: .5rem 1rem;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	white-space: nowrap;
+}
+
+.NewRoutine .frame-list-column {
+	align-self: flex-start;
+
+	flex-basis: 45%;
+	flex-grow: 1;
+	font-family: 'Jura', sans-serif;
+	font-size: 1.1rem;
+	margin: 0 0 0 1rem;
+	max-width: 15rem;
+	padding: 0;
+	padding-left: 1rem;
+	text-align: left;
+}
+
+.NewRoutine .frame-list {
+	border: 1px solid #ccc;
+}
+
+.NewRoutine .frame-list li {
+	margin-left: 1rem;
+}
+
+.NewRoutine .frame-list-title {
+	color: #ccc;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.3rem;
+	margin: 1rem 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.NewRoutine .item { 
+	margin-right: .7rem;
+	padding: .5rem;
+}
+
+.NewRoutine .item img {
+	min-width: 12rem;
+}
+
+.NewRoutine .item-title {
+	color: #497ADB;
+	font-size: 1.4rem;
+	padding-bottom: .5rem;
+}
+
+.NewRoutine .item-button {
+	background: white;
+	border: 2px solid #497ADB;
+	border-radius: 1rem;
+	color: #497ADB;
+	font-size: 1.5rem;
+	margin-top: 1rem;
+	padding: .8rem;
+	text-align: center;
+	width: 100%;
+}
+
+.NewRoutine .item-button:hover {
+	background: gold;
+	color: #497ADB;
+}
+
+.NewRoutine .item-button.active {
+	background: gold;
+	color: #497ADB;  
+}
+
+.NewRoutine hr { 
+	margin-top: 2rem;
+	height: 3px;
+	border: 0;
+	box-shadow: inset 0 3px 3px -3px rgba(0, 0, 0, 0.5);
+}
+
+.NewRoutine .wrapper {
+	width: 100%;
+}
+
+.NewRoutine .btn-primary {
+	margin: 1rem auto;
+}
+
+.NewRoutine select {
+	font-size: 1.5rem;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.NewRoutine .controls {
+	display: flex;
+	align-items: center;
+	flex-wrap: no-wrap;
+	justify-content: center;
+	width: 100vw;
+	border: 0px solid red;
+}

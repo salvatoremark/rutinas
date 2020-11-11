@@ -1,0 +1,36 @@
+.DrillCategories {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 1rem;
+}
+
+.DrillCategories li {
+	margin-right: .3rem;
+	margin-bottom: .5rem;
+}
+
+.DrillCategories button {
+	background: #eee;
+	color: #333;
+	font-size: 1rem;
+	padding: .6em;
+}
+
+.DrillCategories .category-on {
+	color: #d31913;
+	background: gold;
+}
+
+.DrillCategories .category-on:hover {
+	color: red;
+}
+
+.DrillCategories .category-on:focus {
+	outline: -webkit-focus-ring-color auto 2px;
+}
+
+
+.hide {
+	display: none;
+}
